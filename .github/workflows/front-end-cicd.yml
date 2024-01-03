@@ -14,8 +14,8 @@ jobs:
     with:
       args: --acl public-read --follow-symlinks --delete
     env:
-      AWS_S3_BUCKET: ${{secrets.}}
-      AWS_ACCESS_KEY_ID: ${{secrets.}}
-      AWS_SECRET_ACCESS_KEY: ${{secrets.}}
+      AWS_S3_BUCKET: ${{secrets.kevin-cloud-resume-challenge}}
+      AWS_ACCESS_KEY_ID: ${{secrets.AKIAYXGOX7U7PZDZ3422}}
+      AWS_SECRET_ACCESS_KEY: ${{secrets.iOvN1QiOvi9smbfIFa0bb+1ev+uTxwNZlmDQoOv7}}
       AWS_REGION: 'ca-central-1'
       SOURCE_DIR: 'html5up-read-only'
